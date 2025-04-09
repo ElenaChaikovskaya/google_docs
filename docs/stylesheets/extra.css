@@ -1,0 +1,45 @@
+
+
+.file-document {
+    color: #4285F4
+}
+
+:root  > * {
+    --md-primary-fg-color:#4285F4;
+}
+
+.sticker {
+    color:#4285F4
+}
+
+.sheet {
+    color:#0d5e13    
+}
+
+html a[title="YouTube"].md-social__link svg {
+    color: #ee0f0f;
+}
+
+html a[title="Facebook"].md-social__link svg {
+    color: #0165E1;
+}
+
+html a[title="LinkedIn"].md-social__link svg {
+    color: #0077b5;
+}
+
+html a[title="Instagram"].md-social__link svg {
+    background: #833ab4;
+    background: linear-gradient(to right,
+      #833ab4,#fd1d1d,#fcb045
+    );
+  }
+
+html a[title="TikTok"].md-social__link svg {
+    color: #EE1D51;
+}
+
+.right-align {
+    float: right;
+    margin-left: 10px;
+} 

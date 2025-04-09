@@ -1,0 +1,73 @@
+site_name: Google Docs 
+
+nav:
+  - About Google Docs: docs-overview.md 
+  - Get started: 
+    - Create document and manage access: 
+      - start/index.md
+      - Create new document: start/create_new_doc.md
+      - Download file: start/download_file.md
+      - Manage access: start/access.md
+    - Format and print:
+      - format/index.md
+      - Format text: format/format_text.md
+      - Manage page settings: format/page_settings.md     
+      - Print file: format/print.md
+    - Insert content: add_images.md
+    - Manage add-ons: add_ons.md
+  - Reference: ref.md
+
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - header.autohide
+  palette:
+    primary: custom
+  font:
+    text: Roboto
+    
+  logo: img/gd1.png
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg 
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true      
+  - pymdownx.snippets
+extra_css:
+  - stylesheets/extra.css 
+extra: 
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/googleworkspace
+      name: Facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/googleworkspace/
+      name: Instagram
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/c/googleworkspace/
+      name: YouTube 
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/showcase/googleworkspace/
+      name: LinkedIn       
+    - icon: fontawesome/brands/tiktok
+      link: https://goo.gle/3xj0b2F
+      name: TikTok
+    - icon: simple/x
+      link: https://x.com/GoogleWorkspace
+      name: x.com
+   
+   
+    
+
+
+
